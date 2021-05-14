@@ -13,17 +13,6 @@ body {
   min-height: 1280px;
 }
 
-
-h1 {
-  text-align: center;
-  color: #27689E;
-}
-
-h2 {
-  padding: 90px 0px;
-}
-
-
 .heading {
   text-align: center;
   text-transform: uppercase;
@@ -47,8 +36,7 @@ h2 {
   align-items: center;
   justify-content: center;
   padding: 90px 10px;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 250px;
 }
 
 .intro-images-container {
@@ -63,6 +51,7 @@ h2 {
   justify-content: center;
   align-items: center;
   padding-bottom: 40px;
+  margin-top: 40px;
   margin-bottom: 50px;
   border-radius: 5px;
 }
@@ -74,7 +63,7 @@ h2 {
   width: 700px;
   padding: 0px 10px 10px 10px;
   border-radius: 5px;
-  background-color: #19304F;
+  background-color: #0D1726;
 }
 
 .image-container {
@@ -104,15 +93,19 @@ h2 {
   position: absolute;
   width: 300px;
   height: 300px;
-  left: 90px;
+  left: 150px;
 }
 
 .fishery {
-  background-color: #01152F;
+  background-color: #090E18;
 }
 
 .aquaculture {
   background-color: #19304F;
+}
+
+.trophic {
+  background-color: #0D1726;
 }
 
 .row {
@@ -142,6 +135,6 @@ h2 {
 }
 
 .outro {
-  height: 640px;
+  height: 200px;
   margin-top: 40px;
 }
