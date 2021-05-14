@@ -1,0 +1,155 @@
+*{
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #090E18;
+  min-height: 1280px;
+}
+
+
+h1 {
+  text-align: center;
+  color: #27689E;
+}
+
+h2 {
+  padding: 90px 0px;
+}
+
+
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.intro-img > img {
+  width: 100%;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.intro-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 10px;
+  margin-top: 150px;
+  margin-bottom: 250px;
+  border: 1px solid white;
+}
+
+.intro-images-container {
+  width: 750px;
+  display: flex;
+  position: relative;
+}
+
+.text-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+  padding: 0px 10px 10px;
+  border-radius: 5px;
+  background-color: #19304F;
+}
+
+/* .item1,
+.item2 {
+  width: 750px;
+  width: auto;
+  position: absolute;
+} */
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.floating {
+  position: absolute;
+}
+
+.graph-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.graph-overlay {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 90px;
+}
+
+.fishery {
+  background-color: #01152F;
+}
+
+.aquaculture {
+  background-color: #19304F;
+}
+
+.row {
+  width: auto;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.whale {
+  top: 30px;
+}
+
+.sydney {
+  top: 2900px;
+}
+
+.burj {
+  top: 9790px;
+}
+
+.twin {
+  top: 19760px;
+}
+
+.gull {
+  top: 26660px;
+}
+
+.outro {
+  height: 640px;
+  margin-top: 40px;
+}

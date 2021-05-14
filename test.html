@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>There are NOT plenty of fish in the sea</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://allfont.net/allfont.css?fonts=agency-fb" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+    #scroll {
+      position: relative;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 1.5em;
+      color: #dedcd1;
+    }
+
+    p {
+      font-size: 1em;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Agency FB", arial;
+      line-height: 1.7em;
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    h2 {
+      font-size: 1.7em;
+    }
+
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1
+      }
+    }
+    .step {
+      visibility: hidden;
+    }
+    .step.is-active {
+      visibility: visible;
+      animation: fadein 1s ease-out;
+    }
+    .step.stay {
+      visibility: visible;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="intro-img">
+      <img src="images/TITTEL1.png"/>
+    </div>
+    <main id="scrolly">
+      <article>
+        <div class="intro-container step" data-step="1">
+            <div class="text-block">
+              <p>The human population has never been this big before, and with 385,000 babies being born
+                every day we are rapidly reaching the 8 billion people mark. With an increasing population
+                there is also an increasing demand for food rich in protein, however traditional agriculture
+                is having a hard time keeping up with the demands and it is impossible to maintain sustainably.
+                Is this where the salmon industry swoops in and saves the day?</p>
+            </div>
+          <div class="intro-images-container">
+            <img src="images/Food.png" style="width: 100%;">
+          </div>
+        </div>
+        <div class="text-container row">
+          <div class="image-container row">
+            <img src="images/Food3.png" style="width: 750px;">
+          </div>
+          <div class="text-block">
+            <p>The Atlantic salmon (Salmo salar L.)  is arguably the world’s most iconic fish: it’s
+              crimson pink flesh, smooth texture and distinct flavour makes it an appealing ingredient
+              in many dishes around the world. What makes the salmon a particularly great fish is that it has a
+               big meat yield and up to 60% of its body mass can be consumed. Additionally, the meat is an
+               excellent source of protein (containing all the 9 essential amino acids),  as well as healthy
+               fats such as omega-3 fatty acids.</p>
+          </div>
+        </div>
+        <div class="heading">
+          <h2 class="step" data-step="2">Global supply of salmon (farmed and wild) was estimated to 3.6 million tonn in 2018</h2>
+          <h2 class="step"  data-step="3">But where does the fish come from?</h2>
+        </div>
+        <div class="text-container fishery step" data-step="4">
+          <div class="image-container">
+            <h2 class="floating" style="text-transform: uppercase;">The fishery industry</h2>
+            <img src="images/fishery.png" style="width:100%; height:auto;">
+          </div>
+          <div class="text-block fishery">
+            <p>...</p>
+          </div>
+      </div>
+      <div class="text-container aquaculture step" data-step="5">
+        <div class="image-container">
+          <h2 class="floating" style="text-transform: uppercase;">The Aquaculture industry</h2>
+          <img src="images/aquaculture.png" style="width:100%; height:auto;">
+        </div>
+        <div class="text-block aquaculture">
+          <p style="padding-bottom: 70px;">Today, most of the salmon we consume worldwide comes from the aquaculture
+            industry and the countries with the largest production is Norway and
+            Chile. Together, Norway and Chile’s production amounted to around 80%
+            of all the farmed salmon in 2018. In 2020, Norway’s Aquaculture in
+            particular has grown rapidly over the years, from its humble
+            beginnings in the 1970s where production was close to 500 tonnes,
+            till 2020 where it reached close to 1.4 million metric tons!</p>
+        </div>
+        <div class="graph-container">
+          <p>It is hard to comprehend such a massive amount, so let’s put it into perspective...</p>
+          <img src="images/Lakseproduksjon.svg" style="width: 700px;" class="step" data-step="6">
+          <img src="images/500TONN2.png" class="graph-overlay whale step" data-step="7">
+          <img src="images/100000TONN2.png" class="graph-overlay sydney step" data-step="8">
+          <img src="images/500000TONN2.png" class="graph-overlay burj step" data-step="9">
+          <img src="images/1MTONN2.png" class="graph-overlay twin step" data-step="10">
+          <img src="images/1.4MTONN2.png" class="graph-overlay gull step" data-step="11">
+        </div>
+    </div>
+    <div class="heading">
+      <h2>So then, how are the fish farmed?</h2>
+    </div>
+    <div class="text-container row">
+      <div class="image-container row">
+        <img src="images/merd.png">
+      </div>
+      <div class="text-block">
+        <p>Adult farmed salmon is kept in large system floating cages, usually
+          suspended in the ocean. The largest pens have a volume up to 315 000 m<sup>3</sup>
+          and can house up to 200 000 fish, meaning each individual fish have 1.5
+          m<sup>3</sup> of space.</p>
+        <p>The salmon will be kept here up to two years, until they have reached
+          the ideal weight of 3-5 kg. Then the salmon will be harvested and
+          slaughtered. A few individuals will be chosen as broodstock to make
+          more salmon, and the cycle repeats.</p>
+      </div>
+    </div>
+      </article>
+    </main>
+    <div class="outro"></div>
+
+    <script src="https://unpkg.com/intersection-observer"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script>
+     var scrolly = document.querySelector("#scrolly");
+     var article = scrolly.querySelector("article");
+     var step = article.querySelectorAll(".step");
+
+     // initialize the scrollama
+     var scroller = scrollama();
+
+     // scrollama event handlers
+     function handleStepEnter(response) {
+       // response = { element, direction, index }
+       console.log(response);
+       // add to color to current step
+       response.element.classList.add("is-active");
+     }
+
+     function handleStepExit(response) {
+       // response = { element, direction, index }
+       console.log(response);
+       // remove color from current step
+       response.element.classList.add("stay");
+       response.element.classList.remove("is-active");
+     }
+
+     function init() {
+       // set random padding for different step heights (not required)
+       /* step.forEach(function(step) {
+         var v = 100 + Math.floor((Math.random() * window.innerHeight) / 4);
+         step.style.padding = v + "px 0px";
+       }); */
+
+       // 1. setup the scroller with the bare-bones options
+       // 		this will also initialize trigger observations
+       // 2. bind scrollama event handlers (this can be chained like below)
+       scroller
+         .setup({
+           step: "#scrolly article .step",
+           debug: true,
+           offset: 0.75,
+           once: true
+         })
+         .onStepEnter(handleStepEnter)
+         .onStepExit(handleStepExit);
+
+       // 3. setup resize event
+       window.addEventListener("resize", scroller.resize);
+     }
+
+     // kick things off
+     init();
+   </script>
+  </body>
+</html>
