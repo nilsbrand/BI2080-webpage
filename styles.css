@@ -13,10 +13,6 @@ body {
   min-height: 1280px;
 }
 
-article {
-  width: 1920px;
-}
-
 .heading {
   text-align: center;
   text-transform: uppercase;
