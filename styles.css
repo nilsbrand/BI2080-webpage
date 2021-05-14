@@ -11,6 +11,9 @@ body {
 body {
   background-color: #090E18;
   min-height: 1280px;
+}
+
+article {
   width: 1920px;
 }
 
